@@ -108,10 +108,6 @@ try:
                     if(user_word in random_choice):
                         print("Correct guess! ")        
                         user_guess+=user_word
-                        # if set(random_choice).issubset(set(user_guess)):
-                        #     print("congratulations! you won ")
-                        #     found=True
-                        #     break
                     else: 
                         times-=1
                         print("Wrong guess! lives-1")
